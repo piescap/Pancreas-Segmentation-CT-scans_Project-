@@ -1,0 +1,138 @@
+(base) [3175552@lnode01 UNet_logs]$ cat unet3d_470946.out
+Epoch 1/100 - Train Loss: 1.3345, Val Loss: 1.3425, Val Dice: 0.0094
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 2/100 - Train Loss: 1.2914, Val Loss: 1.3105, Val Dice: 0.0098
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 3/100 - Train Loss: 1.2463, Val Loss: 1.2764, Val Dice: 0.0096
+Epoch 4/100 - Train Loss: 1.2125, Val Loss: 1.2512, Val Dice: 0.0097
+Epoch 5/100 - Train Loss: 1.1939, Val Loss: 1.2318, Val Dice: 0.0100
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 6/100 - Train Loss: 1.1724, Val Loss: 1.2157, Val Dice: 0.0103
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 7/100 - Train Loss: 1.1608, Val Loss: 1.2038, Val Dice: 0.0108
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 8/100 - Train Loss: 1.1604, Val Loss: 1.1959, Val Dice: 0.0110
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 9/100 - Train Loss: 1.1507, Val Loss: 1.1905, Val Dice: 0.0108
+Epoch 10/100 - Train Loss: 1.1378, Val Loss: 1.1854, Val Dice: 0.0109
+Epoch 11/100 - Train Loss: 1.1338, Val Loss: 1.1816, Val Dice: 0.0108
+Epoch 12/100 - Train Loss: 1.1343, Val Loss: 1.1785, Val Dice: 0.0108
+Epoch 13/100 - Train Loss: 1.1291, Val Loss: 1.1760, Val Dice: 0.0107
+Epoch 14/100 - Train Loss: 1.1282, Val Loss: 1.1738, Val Dice: 0.0106
+Epoch 15/100 - Train Loss: 1.1275, Val Loss: 1.1717, Val Dice: 0.0105
+Epoch 16/100 - Train Loss: 1.1214, Val Loss: 1.1707, Val Dice: 0.0103
+Epoch 17/100 - Train Loss: 1.1259, Val Loss: 1.1683, Val Dice: 0.0103
+Epoch 18/100 - Train Loss: 1.1153, Val Loss: 1.1665, Val Dice: 0.0101
+Epoch 19/100 - Train Loss: 1.1166, Val Loss: 1.1649, Val Dice: 0.0099
+Epoch 20/100 - Train Loss: 1.1229, Val Loss: 1.1633, Val Dice: 0.0096
+Epoch 21/100 - Train Loss: 1.1189, Val Loss: 1.1618, Val Dice: 0.0092
+Epoch 22/100 - Train Loss: 1.1193, Val Loss: 1.1600, Val Dice: 0.0087
+Epoch 23/100 - Train Loss: 1.1078, Val Loss: 1.1579, Val Dice: 0.0081
+Epoch 24/100 - Train Loss: 1.1104, Val Loss: 1.1530, Val Dice: 0.0074
+Epoch 25/100 - Train Loss: 1.1001, Val Loss: 1.1486, Val Dice: 0.0060
+Epoch 26/100 - Train Loss: 1.0958, Val Loss: 1.1413, Val Dice: 0.0092
+Epoch 27/100 - Train Loss: 1.0887, Val Loss: 1.1332, Val Dice: 0.0130
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 28/100 - Train Loss: 1.0764, Val Loss: 1.1258, Val Dice: 0.0158
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 29/100 - Train Loss: 1.0681, Val Loss: 1.1167, Val Dice: 0.0247
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 30/100 - Train Loss: 1.0567, Val Loss: 1.1088, Val Dice: 0.0306
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 31/100 - Train Loss: 1.0466, Val Loss: 1.1045, Val Dice: 0.0284
+Epoch 32/100 - Train Loss: 1.0474, Val Loss: 1.0985, Val Dice: 0.0321
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 33/100 - Train Loss: 1.0292, Val Loss: 1.0968, Val Dice: 0.0273
+Epoch 34/100 - Train Loss: 1.0348, Val Loss: 1.0921, Val Dice: 0.0346
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 35/100 - Train Loss: 1.0324, Val Loss: 1.0875, Val Dice: 0.0335
+Epoch 36/100 - Train Loss: 1.0191, Val Loss: 1.0823, Val Dice: 0.0433
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 37/100 - Train Loss: 1.0156, Val Loss: 1.0803, Val Dice: 0.0416
+Epoch 38/100 - Train Loss: 1.0165, Val Loss: 1.0729, Val Dice: 0.0433
+Epoch 39/100 - Train Loss: 0.9986, Val Loss: 1.0697, Val Dice: 0.0530
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 40/100 - Train Loss: 1.0066, Val Loss: 1.0609, Val Dice: 0.0612
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 41/100 - Train Loss: 1.0026, Val Loss: 1.0553, Val Dice: 0.0816
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 42/100 - Train Loss: 0.9852, Val Loss: 1.0495, Val Dice: 0.0925
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 43/100 - Train Loss: 0.9941, Val Loss: 1.0448, Val Dice: 0.1216
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 44/100 - Train Loss: 0.9811, Val Loss: 1.0416, Val Dice: 0.0909
+Epoch 45/100 - Train Loss: 0.9748, Val Loss: 1.0382, Val Dice: 0.1387
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 46/100 - Train Loss: 0.9773, Val Loss: 1.0346, Val Dice: 0.1533
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 47/100 - Train Loss: 0.9712, Val Loss: 1.0338, Val Dice: 0.1503
+Epoch 48/100 - Train Loss: 0.9473, Val Loss: 1.0330, Val Dice: 0.1348
+Epoch 49/100 - Train Loss: 0.9515, Val Loss: 1.0274, Val Dice: 0.2468
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 50/100 - Train Loss: 0.9545, Val Loss: 1.0242, Val Dice: 0.3348
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 51/100 - Train Loss: 0.9545, Val Loss: 1.0230, Val Dice: 0.2885
+Epoch 52/100 - Train Loss: 0.9512, Val Loss: 1.0215, Val Dice: 0.2961
+Epoch 53/100 - Train Loss: 0.9415, Val Loss: 1.0200, Val Dice: 0.3312
+Epoch 54/100 - Train Loss: 0.9401, Val Loss: 1.0209, Val Dice: 0.2105
+Epoch 55/100 - Train Loss: 0.9475, Val Loss: 1.0181, Val Dice: 0.2674
+Epoch 56/100 - Train Loss: 0.9252, Val Loss: 1.0162, Val Dice: 0.3293
+Epoch 57/100 - Train Loss: 0.9505, Val Loss: 1.0153, Val Dice: 0.3213
+Epoch 58/100 - Train Loss: 0.9420, Val Loss: 1.0141, Val Dice: 0.3477
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 59/100 - Train Loss: 0.9521, Val Loss: 1.0122, Val Dice: 0.3641
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 60/100 - Train Loss: 0.9282, Val Loss: 1.0112, Val Dice: 0.3763
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 61/100 - Train Loss: 0.9361, Val Loss: 1.0101, Val Dice: 0.4450
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 62/100 - Train Loss: 0.9229, Val Loss: 1.0098, Val Dice: 0.3427
+Epoch 63/100 - Train Loss: 0.9462, Val Loss: 1.0084, Val Dice: 0.3986
+Epoch 64/100 - Train Loss: 0.9328, Val Loss: 1.0078, Val Dice: 0.4638
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 65/100 - Train Loss: 0.9250, Val Loss: 1.0069, Val Dice: 0.4708
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 66/100 - Train Loss: 0.9338, Val Loss: 1.0073, Val Dice: 0.3591
+Epoch 67/100 - Train Loss: 0.9356, Val Loss: 1.0046, Val Dice: 0.4661
+Epoch 68/100 - Train Loss: 0.9308, Val Loss: 1.0048, Val Dice: 0.5281
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 69/100 - Train Loss: 0.9146, Val Loss: 1.0053, Val Dice: 0.4997
+Epoch 70/100 - Train Loss: 0.9182, Val Loss: 1.0046, Val Dice: 0.4544
+Epoch 71/100 - Train Loss: 0.9260, Val Loss: 1.0042, Val Dice: 0.4603
+Epoch 72/100 - Train Loss: 0.9212, Val Loss: 1.0029, Val Dice: 0.4634
+Epoch 73/100 - Train Loss: 0.9061, Val Loss: 1.0017, Val Dice: 0.5341
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 74/100 - Train Loss: 0.9188, Val Loss: 1.0016, Val Dice: 0.5307
+Epoch 75/100 - Train Loss: 0.9152, Val Loss: 1.0018, Val Dice: 0.5291
+Epoch 76/100 - Train Loss: 0.9164, Val Loss: 1.0012, Val Dice: 0.5099
+Epoch 77/100 - Train Loss: 0.9152, Val Loss: 1.0010, Val Dice: 0.5456
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 78/100 - Train Loss: 0.9140, Val Loss: 1.0002, Val Dice: 0.5212
+Epoch 79/100 - Train Loss: 0.9062, Val Loss: 1.0001, Val Dice: 0.5101
+Epoch 80/100 - Train Loss: 0.9115, Val Loss: 1.0003, Val Dice: 0.5259
+Epoch 81/100 - Train Loss: 0.9002, Val Loss: 1.0000, Val Dice: 0.4615
+Epoch 82/100 - Train Loss: 0.8997, Val Loss: 0.9996, Val Dice: 0.5267
+Epoch 83/100 - Train Loss: 0.9102, Val Loss: 0.9993, Val Dice: 0.5457
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 84/100 - Train Loss: 0.8919, Val Loss: 0.9992, Val Dice: 0.5312
+Epoch 85/100 - Train Loss: 0.9052, Val Loss: 0.9989, Val Dice: 0.5333
+Epoch 86/100 - Train Loss: 0.8869, Val Loss: 0.9988, Val Dice: 0.5306
+Epoch 87/100 - Train Loss: 0.9058, Val Loss: 0.9985, Val Dice: 0.5374
+Epoch 88/100 - Train Loss: 0.9039, Val Loss: 0.9984, Val Dice: 0.5492
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 89/100 - Train Loss: 0.9111, Val Loss: 0.9982, Val Dice: 0.5225
+Epoch 90/100 - Train Loss: 0.9047, Val Loss: 0.9982, Val Dice: 0.5182
+Epoch 91/100 - Train Loss: 0.9194, Val Loss: 0.9982, Val Dice: 0.5542
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 92/100 - Train Loss: 0.8959, Val Loss: 0.9982, Val Dice: 0.5597
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 93/100 - Train Loss: 0.9102, Val Loss: 0.9981, Val Dice: 0.5603
+--- Nuovo record! Modello salvato: /home/3175552/UNET_MATI/checkpoints/baseline_best_model.pt ---
+Epoch 94/100 - Train Loss: 0.9021, Val Loss: 0.9980, Val Dice: 0.5564
+Epoch 95/100 - Train Loss: 0.9061, Val Loss: 0.9980, Val Dice: 0.5558
+Epoch 96/100 - Train Loss: 0.9053, Val Loss: 0.9980, Val Dice: 0.5593
+Epoch 97/100 - Train Loss: 0.9164, Val Loss: 0.9979, Val Dice: 0.5592
+Epoch 98/100 - Train Loss: 0.8965, Val Loss: 0.9979, Val Dice: 0.5591
+Epoch 99/100 - Train Loss: 0.9058, Val Loss: 0.9979, Val Dice: 0.5592
+Epoch 100/100 - Train Loss: 0.9104, Val Loss: 0.9979, Val Dice: 0.5592
+Training completato. Miglior Dice Validation: 0.5603

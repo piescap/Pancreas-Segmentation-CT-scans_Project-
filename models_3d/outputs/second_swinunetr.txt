@@ -1,0 +1,328 @@
+Caricamento pesi locali da /home/3175552/3D_UNET/model_swinvit.pt...
+Pesi iniziali caricati con successo!
+Inizio addestramento per 100 epoche sul device: cuda...
+Epoch 1/100 - Train Loss: 1.0785
+Epoch 1/100 - Val Loss: 1.0416
+Epoch 1/100 - Val Mean Dice: 0.0463
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.0463)
+Epoch 2/100 - Train Loss: 0.9541
+Epoch 2/100 - Val Loss: 1.0208
+Epoch 2/100 - Val Mean Dice: 0.0131
+Epoch 3/100 - Train Loss: 0.9257
+Epoch 3/100 - Val Loss: 1.0113
+Epoch 3/100 - Val Mean Dice: 0.1137
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.1137)
+Epoch 4/100 - Train Loss: 0.9024
+Epoch 4/100 - Val Loss: 1.0080
+Epoch 4/100 - Val Mean Dice: 0.0963
+Epoch 5/100 - Train Loss: 0.8852
+Epoch 5/100 - Val Loss: 0.9956
+Epoch 5/100 - Val Mean Dice: 0.1879
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.1879)
+Epoch 6/100 - Train Loss: 0.8643
+Epoch 6/100 - Val Loss: 0.9889
+Epoch 6/100 - Val Mean Dice: 0.1507
+Epoch 7/100 - Train Loss: 0.8293
+Epoch 7/100 - Val Loss: 0.9726
+Epoch 7/100 - Val Mean Dice: 0.2472
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.2472)
+Epoch 8/100 - Train Loss: 0.8180
+Epoch 8/100 - Val Loss: 0.9738
+Epoch 8/100 - Val Mean Dice: 0.1648
+Epoch 9/100 - Train Loss: 0.7732
+Epoch 9/100 - Val Loss: 0.9574
+Epoch 9/100 - Val Mean Dice: 0.2308
+Epoch 10/100 - Train Loss: 0.7156
+Epoch 10/100 - Val Loss: 0.9362
+Epoch 10/100 - Val Mean Dice: 0.2216
+Epoch 11/100 - Train Loss: 0.6657
+Epoch 11/100 - Val Loss: 0.8942
+Epoch 11/100 - Val Mean Dice: 0.3514
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.3514)
+Epoch 12/100 - Train Loss: 0.6740
+Epoch 12/100 - Val Loss: 0.8915
+Epoch 12/100 - Val Mean Dice: 0.3662
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.3662)
+Epoch 13/100 - Train Loss: 0.6560
+Epoch 13/100 - Val Loss: 0.8980
+Epoch 13/100 - Val Mean Dice: 0.2931
+Epoch 14/100 - Train Loss: 0.6351
+Epoch 14/100 - Val Loss: 0.8265
+Epoch 14/100 - Val Mean Dice: 0.3792
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.3792)
+Epoch 15/100 - Train Loss: 0.6153
+Epoch 15/100 - Val Loss: 0.8149
+Epoch 15/100 - Val Mean Dice: 0.3581
+Epoch 16/100 - Train Loss: 0.5585
+Epoch 16/100 - Val Loss: 0.8363
+Epoch 16/100 - Val Mean Dice: 0.3556
+Epoch 17/100 - Train Loss: 0.5754
+Epoch 17/100 - Val Loss: 0.8126
+Epoch 17/100 - Val Mean Dice: 0.3288
+Epoch 18/100 - Train Loss: 0.5452
+Epoch 18/100 - Val Loss: 0.7173
+Epoch 18/100 - Val Mean Dice: 0.5171
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.5171)
+Epoch 19/100 - Train Loss: 0.5550
+Epoch 19/100 - Val Loss: 0.7210
+Epoch 19/100 - Val Mean Dice: 0.4968
+Epoch 20/100 - Train Loss: 0.5416
+Epoch 20/100 - Val Loss: 0.7044
+Epoch 20/100 - Val Mean Dice: 0.4979
+Epoch 21/100 - Train Loss: 0.5677
+Epoch 21/100 - Val Loss: 0.7292
+Epoch 21/100 - Val Mean Dice: 0.4441
+Epoch 22/100 - Train Loss: 0.5429
+Epoch 22/100 - Val Loss: 0.6697
+Epoch 22/100 - Val Mean Dice: 0.5141
+Epoch 23/100 - Train Loss: 0.4921
+Epoch 23/100 - Val Loss: 0.6883
+Epoch 23/100 - Val Mean Dice: 0.4658
+Epoch 24/100 - Train Loss: 0.4967
+Epoch 24/100 - Val Loss: 0.6598
+Epoch 24/100 - Val Mean Dice: 0.5049
+Epoch 25/100 - Train Loss: 0.4923
+Epoch 25/100 - Val Loss: 0.6166
+Epoch 25/100 - Val Mean Dice: 0.5848
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.5848)
+Epoch 26/100 - Train Loss: 0.5159
+Epoch 26/100 - Val Loss: 0.5879
+Epoch 26/100 - Val Mean Dice: 0.5777
+Epoch 27/100 - Train Loss: 0.4777
+Epoch 27/100 - Val Loss: 0.5534
+Epoch 27/100 - Val Mean Dice: 0.6240
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.6240)
+Epoch 28/100 - Train Loss: 0.4810
+Epoch 28/100 - Val Loss: 0.6241
+Epoch 28/100 - Val Mean Dice: 0.5490
+Epoch 29/100 - Train Loss: 0.4792
+Epoch 29/100 - Val Loss: 0.5420
+Epoch 29/100 - Val Mean Dice: 0.6459
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.6459)
+Epoch 30/100 - Train Loss: 0.4826
+Epoch 30/100 - Val Loss: 0.5550
+Epoch 30/100 - Val Mean Dice: 0.6198
+Epoch 31/100 - Train Loss: 0.4628
+Epoch 31/100 - Val Loss: 0.5319
+Epoch 31/100 - Val Mean Dice: 0.6287
+Epoch 32/100 - Train Loss: 0.4517
+Epoch 32/100 - Val Loss: 0.5502
+Epoch 32/100 - Val Mean Dice: 0.6022
+Epoch 33/100 - Train Loss: 0.5126
+Epoch 33/100 - Val Loss: 0.4957
+Epoch 33/100 - Val Mean Dice: 0.6569
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.6569)
+Epoch 34/100 - Train Loss: 0.4710
+Epoch 34/100 - Val Loss: 0.6167
+Epoch 34/100 - Val Mean Dice: 0.5045
+Epoch 35/100 - Train Loss: 0.4309
+Epoch 35/100 - Val Loss: 0.5198
+Epoch 35/100 - Val Mean Dice: 0.6111
+Epoch 36/100 - Train Loss: 0.4872
+Epoch 36/100 - Val Loss: 0.4933
+Epoch 36/100 - Val Mean Dice: 0.6412
+Epoch 37/100 - Train Loss: 0.4141
+Epoch 37/100 - Val Loss: 0.4804
+Epoch 37/100 - Val Mean Dice: 0.6643
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.6643)
+Epoch 38/100 - Train Loss: 0.4652
+Epoch 38/100 - Val Loss: 0.4387
+Epoch 38/100 - Val Mean Dice: 0.7131
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7131)
+Epoch 39/100 - Train Loss: 0.4219
+Epoch 39/100 - Val Loss: 0.4299
+Epoch 39/100 - Val Mean Dice: 0.7049
+Epoch 40/100 - Train Loss: 0.4299
+Epoch 40/100 - Val Loss: 0.4380
+Epoch 40/100 - Val Mean Dice: 0.6934
+Epoch 41/100 - Train Loss: 0.4627
+Epoch 41/100 - Val Loss: 0.4201
+Epoch 41/100 - Val Mean Dice: 0.6959
+Epoch 42/100 - Train Loss: 0.4132
+Epoch 42/100 - Val Loss: 0.4937
+Epoch 42/100 - Val Mean Dice: 0.6003
+Epoch 43/100 - Train Loss: 0.4361
+Epoch 43/100 - Val Loss: 0.4375
+Epoch 43/100 - Val Mean Dice: 0.6759
+Epoch 44/100 - Train Loss: 0.4236
+Epoch 44/100 - Val Loss: 0.3797
+Epoch 44/100 - Val Mean Dice: 0.7251
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7251)
+Epoch 45/100 - Train Loss: 0.4327
+Epoch 45/100 - Val Loss: 0.3765
+Epoch 45/100 - Val Mean Dice: 0.7353
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7353)
+Epoch 46/100 - Train Loss: 0.4154
+Epoch 46/100 - Val Loss: 0.3849
+Epoch 46/100 - Val Mean Dice: 0.7072
+Epoch 47/100 - Train Loss: 0.4063
+Epoch 47/100 - Val Loss: 0.4110
+Epoch 47/100 - Val Mean Dice: 0.6857
+Epoch 48/100 - Train Loss: 0.4116
+Epoch 48/100 - Val Loss: 0.4105
+Epoch 48/100 - Val Mean Dice: 0.6754
+Epoch 49/100 - Train Loss: 0.4458
+Epoch 49/100 - Val Loss: 0.4985
+Epoch 49/100 - Val Mean Dice: 0.5783
+Epoch 50/100 - Train Loss: 0.4238
+Epoch 50/100 - Val Loss: 0.3442
+Epoch 50/100 - Val Mean Dice: 0.7564
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7564)
+Epoch 51/100 - Train Loss: 0.4192
+Epoch 51/100 - Val Loss: 0.3541
+Epoch 51/100 - Val Mean Dice: 0.7523
+Epoch 52/100 - Train Loss: 0.3843
+Epoch 52/100 - Val Loss: 0.3707
+Epoch 52/100 - Val Mean Dice: 0.7242
+Epoch 53/100 - Train Loss: 0.3997
+Epoch 53/100 - Val Loss: 0.3475
+Epoch 53/100 - Val Mean Dice: 0.7391
+Epoch 54/100 - Train Loss: 0.3835
+Epoch 54/100 - Val Loss: 0.3501
+Epoch 54/100 - Val Mean Dice: 0.7338
+Epoch 55/100 - Train Loss: 0.3815
+Epoch 55/100 - Val Loss: 0.3262
+Epoch 55/100 - Val Mean Dice: 0.7545
+Epoch 56/100 - Train Loss: 0.3957
+Epoch 56/100 - Val Loss: 0.3353
+Epoch 56/100 - Val Mean Dice: 0.7439
+Epoch 57/100 - Train Loss: 0.3927
+Epoch 57/100 - Val Loss: 0.2975
+Epoch 57/100 - Val Mean Dice: 0.7870
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7870)
+Epoch 58/100 - Train Loss: 0.3937
+Epoch 58/100 - Val Loss: 0.3192
+Epoch 58/100 - Val Mean Dice: 0.7562
+Epoch 59/100 - Train Loss: 0.3767
+Epoch 59/100 - Val Loss: 0.3172
+Epoch 59/100 - Val Mean Dice: 0.7530
+Epoch 60/100 - Train Loss: 0.3970
+Epoch 60/100 - Val Loss: 0.3294
+Epoch 60/100 - Val Mean Dice: 0.7554
+Epoch 61/100 - Train Loss: 0.3897
+Epoch 61/100 - Val Loss: 0.3042
+Epoch 61/100 - Val Mean Dice: 0.7800
+Epoch 62/100 - Train Loss: 0.3811
+Epoch 62/100 - Val Loss: 0.3039
+Epoch 62/100 - Val Mean Dice: 0.7767
+Epoch 63/100 - Train Loss: 0.3862
+Epoch 63/100 - Val Loss: 0.2964
+Epoch 63/100 - Val Mean Dice: 0.7833
+Epoch 64/100 - Train Loss: 0.3736
+Epoch 64/100 - Val Loss: 0.3105
+Epoch 64/100 - Val Mean Dice: 0.7577
+Epoch 65/100 - Train Loss: 0.3946
+Epoch 65/100 - Val Loss: 0.3011
+Epoch 65/100 - Val Mean Dice: 0.7687
+Epoch 66/100 - Train Loss: 0.3862
+Epoch 66/100 - Val Loss: 0.2953
+Epoch 66/100 - Val Mean Dice: 0.7736
+Epoch 67/100 - Train Loss: 0.3824
+Epoch 67/100 - Val Loss: 0.2955
+Epoch 67/100 - Val Mean Dice: 0.7706
+Epoch 68/100 - Train Loss: 0.3502
+Epoch 68/100 - Val Loss: 0.2825
+Epoch 68/100 - Val Mean Dice: 0.7828
+Epoch 69/100 - Train Loss: 0.3837
+Epoch 69/100 - Val Loss: 0.2830
+Epoch 69/100 - Val Mean Dice: 0.7831
+Epoch 70/100 - Train Loss: 0.4039
+Epoch 70/100 - Val Loss: 0.3128
+Epoch 70/100 - Val Mean Dice: 0.7448
+Epoch 71/100 - Train Loss: 0.3577
+Epoch 71/100 - Val Loss: 0.2696
+Epoch 71/100 - Val Mean Dice: 0.7927
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.7927)
+Epoch 72/100 - Train Loss: 0.3493
+Epoch 72/100 - Val Loss: 0.2603
+Epoch 72/100 - Val Mean Dice: 0.8019
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.8019)
+Epoch 73/100 - Train Loss: 0.3578
+Epoch 73/100 - Val Loss: 0.2824
+Epoch 73/100 - Val Mean Dice: 0.7810
+Epoch 74/100 - Train Loss: 0.3832
+Epoch 74/100 - Val Loss: 0.2781
+Epoch 74/100 - Val Mean Dice: 0.7876
+Epoch 75/100 - Train Loss: 0.3815
+Epoch 75/100 - Val Loss: 0.2596
+Epoch 75/100 - Val Mean Dice: 0.8006
+Epoch 76/100 - Train Loss: 0.3641
+Epoch 76/100 - Val Loss: 0.2631
+Epoch 76/100 - Val Mean Dice: 0.7960
+Epoch 77/100 - Train Loss: 0.3462
+Epoch 77/100 - Val Loss: 0.2562
+Epoch 77/100 - Val Mean Dice: 0.8001
+Epoch 78/100 - Train Loss: 0.3606
+Epoch 78/100 - Val Loss: 0.2497
+Epoch 78/100 - Val Mean Dice: 0.8092
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.8092)
+Epoch 79/100 - Train Loss: 0.3170
+Epoch 79/100 - Val Loss: 0.2602
+Epoch 79/100 - Val Mean Dice: 0.7981
+Epoch 80/100 - Train Loss: 0.3587
+Epoch 80/100 - Val Loss: 0.2624
+Epoch 80/100 - Val Mean Dice: 0.7965
+Epoch 81/100 - Train Loss: 0.3520
+Epoch 81/100 - Val Loss: 0.2512
+Epoch 81/100 - Val Mean Dice: 0.8065
+Epoch 82/100 - Train Loss: 0.3451
+Epoch 82/100 - Val Loss: 0.2588
+Epoch 82/100 - Val Mean Dice: 0.8032
+Epoch 83/100 - Train Loss: 0.3475
+Epoch 83/100 - Val Loss: 0.2441
+Epoch 83/100 - Val Mean Dice: 0.8110
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.8110)
+Epoch 84/100 - Train Loss: 0.3609
+Epoch 84/100 - Val Loss: 0.2450
+Epoch 84/100 - Val Mean Dice: 0.8112
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.8112)
+Epoch 85/100 - Train Loss: 0.3766
+Epoch 85/100 - Val Loss: 0.2379
+Epoch 85/100 - Val Mean Dice: 0.8163
+--> Nuovo miglior modello salvato in: /home/3175552/3D_UNET_ROBI/best_swinunetr_pancreas.pt (Dice: 0.8163)
+Epoch 86/100 - Train Loss: 0.3299
+Epoch 86/100 - Val Loss: 0.2423
+Epoch 86/100 - Val Mean Dice: 0.8114
+Epoch 87/100 - Train Loss: 0.3671
+Epoch 87/100 - Val Loss: 0.2425
+Epoch 87/100 - Val Mean Dice: 0.8105
+Epoch 88/100 - Train Loss: 0.3607
+Epoch 88/100 - Val Loss: 0.2455
+Epoch 88/100 - Val Mean Dice: 0.8079
+Epoch 89/100 - Train Loss: 0.3435
+Epoch 89/100 - Val Loss: 0.2485
+Epoch 89/100 - Val Mean Dice: 0.8044
+Epoch 90/100 - Train Loss: 0.3150
+Epoch 90/100 - Val Loss: 0.2473
+Epoch 90/100 - Val Mean Dice: 0.8069
+Epoch 91/100 - Train Loss: 0.3041
+Epoch 91/100 - Val Loss: 0.2465
+Epoch 91/100 - Val Mean Dice: 0.8080
+Epoch 92/100 - Train Loss: 0.3275
+Epoch 92/100 - Val Loss: 0.2469
+Epoch 92/100 - Val Mean Dice: 0.8070
+Epoch 93/100 - Train Loss: 0.3487
+Epoch 93/100 - Val Loss: 0.2441
+Epoch 93/100 - Val Mean Dice: 0.8099
+Epoch 94/100 - Train Loss: 0.3811
+Epoch 94/100 - Val Loss: 0.2433
+Epoch 94/100 - Val Mean Dice: 0.8105
+Epoch 95/100 - Train Loss: 0.3633
+Epoch 95/100 - Val Loss: 0.2436
+Epoch 95/100 - Val Mean Dice: 0.8101
+Epoch 96/100 - Train Loss: 0.3438
+Epoch 96/100 - Val Loss: 0.2436
+Epoch 96/100 - Val Mean Dice: 0.8100
+Epoch 97/100 - Train Loss: 0.3345
+Epoch 97/100 - Val Loss: 0.2436
+Epoch 97/100 - Val Mean Dice: 0.8101
+Epoch 98/100 - Train Loss: 0.3833
+Epoch 98/100 - Val Loss: 0.2437
+Epoch 98/100 - Val Mean Dice: 0.8099
+Epoch 99/100 - Train Loss: 0.3625
+Epoch 99/100 - Val Loss: 0.2436
+Epoch 99/100 - Val Mean Dice: 0.8099
+Epoch 100/100 - Train Loss: 0.3601
+Epoch 100/100 - Val Loss: 0.2436
+Epoch 100/100 - Val Mean Dice: 0.8099
+Training completato. Il miglior Dice Score è stato: 0.8163.

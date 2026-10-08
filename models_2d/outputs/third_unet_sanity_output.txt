@@ -1,0 +1,139 @@
+(base) [3175552@lnode01 SecondCNN_logs]$ cat SecondCNN_Training_467840.out
+Avvio Sanity Check su cuda
+
+============================================================
+ RUN: NORMAL
+============================================================
+
+Indicizzazione di 58 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/train'...
+ > Processati 10/58 pazienti...
+ > Processati 20/58 pazienti...
+ > Processati 30/58 pazienti...
+ > Processati 40/58 pazienti...
+ > Processati 50/58 pazienti...
+ Totale slice: 13623 | Slice positive: 4879
+Indicizzazione di 10 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/val'...
+ > Processati 10/10 pazienti...
+ Totale slice: 2141 | Slice positive: 867
+Ep 001 | tr_loss 0.6586 | va_loss 0.5392 | va_dice(2D) 0.7780 | lr 0.000326
+Ep 002 | tr_loss 0.3268 | va_loss 0.3703 | va_dice(2D) 0.7312 | lr 0.000776
+Ep 003 | tr_loss 0.2236 | va_loss 0.3617 | va_dice(2D) 0.7704 | lr 0.001000
+Ep 004 | tr_loss 0.2098 | va_loss 0.3493 | va_dice(2D) 0.8005 | lr 0.000997
+Ep 005 | tr_loss 0.2002 | va_loss 0.3534 | va_dice(2D) 0.8115 | lr 0.000986
+Ep 006 | tr_loss 0.1960 | va_loss 0.3651 | va_dice(2D) 0.7860 | lr 0.000970
+Ep 007 | tr_loss 0.1940 | va_loss 0.3536 | va_dice(2D) 0.8307 | lr 0.000947
+Ep 008 | tr_loss 0.1913 | va_loss 0.3507 | va_dice(2D) 0.8055 | lr 0.000918
+Ep 009 | tr_loss 0.1902 | va_loss 0.3534 | va_dice(2D) 0.8493 | lr 0.000883
+Ep 010 | tr_loss 0.1867 | va_loss 0.3514 | va_dice(2D) 0.7492 | lr 0.000843
+Ep 011 | tr_loss 0.1855 | va_loss 0.3536 | va_dice(2D) 0.8369 | lr 0.000798
+Ep 012 | tr_loss 0.1830 | va_loss 0.3527 | va_dice(2D) 0.8161 | lr 0.000750
+Ep 013 | tr_loss 0.1824 | va_loss 0.3544 | va_dice(2D) 0.8419 | lr 0.000698
+Ep 014 | tr_loss 0.1836 | va_loss 0.3555 | va_dice(2D) 0.8271 | lr 0.000643
+Ep 015 | tr_loss 0.1801 | va_loss 0.3560 | va_dice(2D) 0.8285 | lr 0.000587
+Ep 016 | tr_loss 0.1777 | va_loss 0.3564 | va_dice(2D) 0.8262 | lr 0.000529
+Ep 017 | tr_loss 0.1754 | va_loss 0.3561 | va_dice(2D) 0.8512 | lr 0.000471
+Ep 018 | tr_loss 0.1757 | va_loss 0.3579 | va_dice(2D) 0.8576 | lr 0.000413
+Ep 019 | tr_loss 0.1743 | va_loss 0.3611 | va_dice(2D) 0.8370 | lr 0.000356
+Ep 020 | tr_loss 0.1729 | va_loss 0.3606 | va_dice(2D) 0.8544 | lr 0.000302
+Ep 021 | tr_loss 0.1754 | va_loss 0.3638 | va_dice(2D) 0.8520 | lr 0.000250
+Ep 022 | tr_loss 0.1725 | va_loss 0.3637 | va_dice(2D) 0.8499 | lr 0.000201
+Ep 023 | tr_loss 0.1687 | va_loss 0.3642 | va_dice(2D) 0.8530 | lr 0.000157
+Ep 024 | tr_loss 0.1706 | va_loss 0.3655 | va_dice(2D) 0.8478 | lr 0.000117
+Ep 025 | tr_loss 0.1651 | va_loss 0.3658 | va_dice(2D) 0.8449 | lr 0.000082
+Ep 026 | tr_loss 0.1698 | va_loss 0.3659 | va_dice(2D) 0.8476 | lr 0.000053
+Ep 027 | tr_loss 0.1656 | va_loss 0.3682 | va_dice(2D) 0.8473 | lr 0.000030
+Ep 028 | tr_loss 0.1663 | va_loss 0.3680 | va_dice(2D) 0.8445 | lr 0.000013
+Ep 029 | tr_loss 0.1673 | va_loss 0.3690 | va_dice(2D) 0.8462 | lr 0.000003
+Ep 030 | tr_loss 0.1668 | va_loss 0.3689 | va_dice(2D) 0.8461 | lr 0.000000
+
+>>>> DICE 3D FINALE (miglior checkpoint: ep 18) <<<<
+[DEBUG] Paziente 0006: logit min/max/mean = -29.8049/20.4748/-10.9991; prob min/max/mean = 0.000000/1.000000/0.004000; pred_pos_pixels(@0.5) = 57643
+ Paziente 0006: Dice = 0.86594379
+[DEBUG] Paziente 0035: logit min/max/mean = -38.9016/22.3136/-11.1605; prob min/max/mean = 0.000000/1.000000/0.003587; pred_pos_pixels(@0.5) = 52718
+ Paziente 0035: Dice = 0.77408057
+[DEBUG] Paziente 0049: logit min/max/mean = -57.4314/23.1691/-11.2525; prob min/max/mean = 0.000000/1.000000/0.004722; pred_pos_pixels(@0.5) = 67926
+ Paziente 0049: Dice = 0.79972410
+[DEBUG] Paziente 0055: logit min/max/mean = -29.3645/23.5866/-11.1238; prob min/max/mean = 0.000000/1.000000/0.004678; pred_pos_pixels(@0.5) = 58568
+ Paziente 0055: Dice = 0.75514925
+[DEBUG] Paziente 0058: logit min/max/mean = -48.8061/23.6911/-11.2655; prob min/max/mean = 0.000000/1.000000/0.003630; pred_pos_pixels(@0.5) = 51056
+ Paziente 0058: Dice = 0.74468750
+[DEBUG] Paziente 0062: logit min/max/mean = -27.3968/19.8726/-11.3744; prob min/max/mean = 0.000000/1.000000/0.003143; pred_pos_pixels(@0.5) = 42887
+ Paziente 0062: Dice = 0.77544016
+[DEBUG] Paziente 0064: logit min/max/mean = -32.5684/20.2311/-11.1550; prob min/max/mean = 0.000000/1.000000/0.004975; pred_pos_pixels(@0.5) = 68725
+ Paziente 0064: Dice = 0.80758774
+[DEBUG] Paziente 0065: logit min/max/mean = -32.8178/28.4767/-10.9069; prob min/max/mean = 0.000000/1.000000/0.004528; pred_pos_pixels(@0.5) = 63264
+ Paziente 0065: Dice = 0.84457928
+[DEBUG] Paziente 0069: logit min/max/mean = -27.3155/20.5760/-10.4303; prob min/max/mean = 0.000000/1.000000/0.005434; pred_pos_pixels(@0.5) = 73581
+ Paziente 0069: Dice = 0.79653144
+[DEBUG] Paziente 0076: logit min/max/mean = -27.2083/21.7382/-10.7270; prob min/max/mean = 0.000000/1.000000/0.005072; pred_pos_pixels(@0.5) = 68981
+ Paziente 0076: Dice = 0.80608833
+
+============================================================
+ RUN: SHUFFLED_LABELS [SANITY CHECK]
+============================================================
+
+Indicizzazione di 58 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/train' [SHUFFLE LABELS - SANITY CHECK]...
+ > Processati 10/58 pazienti...
+ > Processati 20/58 pazienti...
+ > Processati 30/58 pazienti...
+ > Processati 40/58 pazienti...
+ > Processati 50/58 pazienti...
+ Totale slice: 13623 | Slice positive: 4879
+Indicizzazione di 10 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/val'...
+ > Processati 10/10 pazienti...
+ Totale slice: 2141 | Slice positive: 867
+Ep 001 | tr_loss 0.6339 | va_loss 0.5043 | va_dice(2D) 0.6016 | lr 0.001000
+Ep 002 | tr_loss 0.5014 | va_loss 0.4805 | va_dice(2D) 0.0982 | lr 0.000970
+Ep 003 | tr_loss 0.4953 | va_loss 0.4774 | va_dice(2D) 0.0949 | lr 0.000882
+Ep 004 | tr_loss 0.4938 | va_loss 0.4785 | va_dice(2D) 0.0882 | lr 0.000749
+Ep 005 | tr_loss 0.4939 | va_loss 0.4755 | va_dice(2D) 0.0978 | lr 0.000586
+Ep 006 | tr_loss 0.4938 | va_loss 0.4766 | va_dice(2D) 0.0953 | lr 0.000412
+Ep 007 | tr_loss 0.4927 | va_loss 0.4771 | va_dice(2D) 0.0979 | lr 0.000249
+Ep 008 | tr_loss 0.4939 | va_loss 0.4772 | va_dice(2D) 0.0967 | lr 0.000116
+Ep 009 | tr_loss 0.4926 | va_loss 0.4757 | va_dice(2D) 0.0987 | lr 0.000030
+Ep 010 | tr_loss 0.4921 | va_loss 0.4761 | va_dice(2D) 0.0985 | lr 0.000000
+
+>>>> DICE 3D FINALE (miglior checkpoint: ep 1) <<<<
+[DEBUG] Paziente 0006: logit min/max/mean = -5.2718/-0.9879/-3.7529; prob min/max/mean = 0.005108/0.271329/0.031294; pred_pos_pixels(@0.5) = 0
+ Paziente 0006: Dice = 0.00000000
+[DEBUG] Paziente 0035: logit min/max/mean = -5.1257/-0.9822/-3.7779; prob min/max/mean = 0.005907/0.272449/0.030305; pred_pos_pixels(@0.5) = 0
+ Paziente 0035: Dice = 0.00000000
+[DEBUG] Paziente 0049: logit min/max/mean = -5.2063/-0.9845/-3.7461; prob min/max/mean = 0.005452/0.271991/0.032538; pred_pos_pixels(@0.5) = 0
+ Paziente 0049: Dice = 0.00000000
+[DEBUG] Paziente 0055: logit min/max/mean = -5.0845/-0.9758/-3.7694; prob min/max/mean = 0.006154/0.273717/0.031987; pred_pos_pixels(@0.5) = 0
+ Paziente 0055: Dice = 0.00000000
+[DEBUG] Paziente 0058: logit min/max/mean = -5.1706/-0.9798/-3.7664; prob min/max/mean = 0.005649/0.272925/0.031359; pred_pos_pixels(@0.5) = 0
+ Paziente 0058: Dice = 0.00000000
+[DEBUG] Paziente 0062: logit min/max/mean = -4.9737/-0.9713/-3.7692; prob min/max/mean = 0.006870/0.274613/0.031531; pred_pos_pixels(@0.5) = 0
+ Paziente 0062: Dice = 0.00000000
+[DEBUG] Paziente 0064: logit min/max/mean = -5.2454/-0.9839/-3.7717; prob min/max/mean = 0.005244/0.272127/0.031323; pred_pos_pixels(@0.5) = 0
+ Paziente 0064: Dice = 0.00000000
+[DEBUG] Paziente 0065: logit min/max/mean = -5.1790/-0.9869/-3.7678; prob min/max/mean = 0.005602/0.271516/0.031413; pred_pos_pixels(@0.5) = 0
+ Paziente 0065: Dice = 0.00000000
+[DEBUG] Paziente 0069: logit min/max/mean = -5.1895/-1.0025/-3.7618; prob min/max/mean = 0.005544/0.268450/0.030987; pred_pos_pixels(@0.5) = 0
+ Paziente 0069: Dice = 0.00000000
+[DEBUG] Paziente 0076: logit min/max/mean = -5.1716/-0.9949/-3.7407; prob min/max/mean = 0.005643/0.269937/0.032143; pred_pos_pixels(@0.5) = 0
+ Paziente 0076: Dice = 0.00000000
+
+============================================================
+ RISULTATI COMPARATIVI SANITY CHECK
+============================================================
+
+ Modalità : NORMAL
+ Best epoch : 18
+ Dice 2D (val) : 0.8576
+ Dice 3D (val) : 0.7970 ± 0.0356
+
+
+ Modalità : SHUFFLED_LABELS [SANITY CHECK]
+ Best epoch : 1
+ Dice 2D (val) : 0.6016
+ Dice 3D (val) : 0.0000 ± 0.0000
+
+ INTERPRETAZIONE:
+ Gap Dice 3D (normale - shuffled) = 0.7970
+
+ ✅ Sanity check SUPERATO: le label shufflate producono Dice basso.
+ La pipeline sembra corretta. Le alte performance nel run normale
+ sono probabilmente genuine.
+============================================================

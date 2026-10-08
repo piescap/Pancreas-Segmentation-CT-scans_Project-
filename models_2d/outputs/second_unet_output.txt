@@ -1,0 +1,81 @@
+>>>> PREPARAZIONE DATASET <<<<
+Indicizzazione di 58 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/train'...
+  > Processati 10/58 pazienti...
+  > Processati 20/58 pazienti...
+  > Processati 30/58 pazienti...
+  > Processati 40/58 pazienti...
+  > Processati 50/58 pazienti...
+  Totale slice: 13623 | Slice positive: 4879
+Indicizzazione di 10 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/val'...
+  > Processati 10/10 pazienti...
+  Totale slice: 2141 | Slice positive: 867
+
+>>>> INIZIO TRAINING <<<<
+Ep 001 | tr_loss 0.6794 | va_loss 0.5757 | va_dice(2D) 0.5757 | lr 0.000186
+Ep 002 | tr_loss 0.4343 | va_loss 0.4130 | va_dice(2D) 0.5729 | lr 0.000411
+Ep 003 | tr_loss 0.2784 | va_loss 0.3697 | va_dice(2D) 0.4128 | lr 0.000690
+Ep 004 | tr_loss 0.2489 | va_loss 0.3590 | va_dice(2D) 0.5734 | lr 0.000915
+Ep 005 | tr_loss 0.2470 | va_loss 0.3547 | va_dice(2D) 0.7388 | lr 0.001000
+Ep 006 | tr_loss 0.2376 | va_loss 0.3525 | va_dice(2D) 0.6571 | lr 0.000999
+Ep 007 | tr_loss 0.2323 | va_loss 0.3540 | va_dice(2D) 0.7273 | lr 0.000995
+Ep 008 | tr_loss 0.2294 | va_loss 0.3560 | va_dice(2D) 0.6795 | lr 0.000989
+Ep 009 | tr_loss 0.2278 | va_loss 0.3475 | va_dice(2D) 0.7628 | lr 0.000981
+Ep 010 | tr_loss 0.2199 | va_loss 0.3484 | va_dice(2D) 0.7737 | lr 0.000970
+Ep 011 | tr_loss 0.2233 | va_loss 0.3485 | va_dice(2D) 0.7432 | lr 0.000957
+Ep 012 | tr_loss 0.2214 | va_loss 0.3445 | va_dice(2D) 0.7391 | lr 0.000941
+Ep 013 | tr_loss 0.2182 | va_loss 0.3491 | va_dice(2D) 0.7647 | lr 0.000924
+Ep 014 | tr_loss 0.2175 | va_loss 0.3509 | va_dice(2D) 0.6722 | lr 0.000904
+Ep 015 | tr_loss 0.2164 | va_loss 0.3461 | va_dice(2D) 0.7903 | lr 0.000883
+Ep 016 | tr_loss 0.2105 | va_loss 0.3450 | va_dice(2D) 0.7529 | lr 0.000860
+Ep 017 | tr_loss 0.2163 | va_loss 0.3466 | va_dice(2D) 0.8233 | lr 0.000834
+Ep 018 | tr_loss 0.2171 | va_loss 0.3462 | va_dice(2D) 0.8073 | lr 0.000808
+Ep 019 | tr_loss 0.2142 | va_loss 0.3468 | va_dice(2D) 0.7763 | lr 0.000779
+Ep 020 | tr_loss 0.2079 | va_loss 0.3428 | va_dice(2D) 0.8240 | lr 0.000750
+Ep 021 | tr_loss 0.2084 | va_loss 0.3458 | va_dice(2D) 0.7949 | lr 0.000719
+Ep 022 | tr_loss 0.2070 | va_loss 0.3431 | va_dice(2D) 0.8118 | lr 0.000687
+Ep 023 | tr_loss 0.2072 | va_loss 0.3434 | va_dice(2D) 0.8051 | lr 0.000654
+Ep 024 | tr_loss 0.2042 | va_loss 0.3430 | va_dice(2D) 0.8181 | lr 0.000621
+Ep 025 | tr_loss 0.2052 | va_loss 0.3418 | va_dice(2D) 0.8143 | lr 0.000587
+Ep 026 | tr_loss 0.2070 | va_loss 0.3420 | va_dice(2D) 0.8107 | lr 0.000552
+Ep 027 | tr_loss 0.2042 | va_loss 0.3421 | va_dice(2D) 0.8198 | lr 0.000517
+Ep 028 | tr_loss 0.2057 | va_loss 0.3429 | va_dice(2D) 0.8272 | lr 0.000482
+Ep 029 | tr_loss 0.2005 | va_loss 0.3418 | va_dice(2D) 0.8134 | lr 0.000448
+Ep 030 | tr_loss 0.2053 | va_loss 0.3424 | va_dice(2D) 0.8186 | lr 0.000413
+Ep 031 | tr_loss 0.2028 | va_loss 0.3424 | va_dice(2D) 0.8069 | lr 0.000379
+Ep 032 | tr_loss 0.2030 | va_loss 0.3455 | va_dice(2D) 0.8212 | lr 0.000345
+Ep 033 | tr_loss 0.2042 | va_loss 0.3414 | va_dice(2D) 0.7962 | lr 0.000313
+Ep 034 | tr_loss 0.2003 | va_loss 0.3427 | va_dice(2D) 0.8328 | lr 0.000281
+Ep 035 | tr_loss 0.2003 | va_loss 0.3423 | va_dice(2D) 0.7907 | lr 0.000250
+Ep 036 | tr_loss 0.1980 | va_loss 0.3418 | va_dice(2D) 0.8365 | lr 0.000220
+Ep 037 | tr_loss 0.1994 | va_loss 0.3413 | va_dice(2D) 0.8195 | lr 0.000192
+Ep 038 | tr_loss 0.1968 | va_loss 0.3413 | va_dice(2D) 0.8323 | lr 0.000165
+Ep 039 | tr_loss 0.1966 | va_loss 0.3413 | va_dice(2D) 0.8400 | lr 0.000140
+Ep 040 | tr_loss 0.1959 | va_loss 0.3413 | va_dice(2D) 0.8404 | lr 0.000117
+Ep 041 | tr_loss 0.1970 | va_loss 0.3418 | va_dice(2D) 0.8157 | lr 0.000095
+Ep 042 | tr_loss 0.1959 | va_loss 0.3415 | va_dice(2D) 0.8314 | lr 0.000076
+Ep 043 | tr_loss 0.1979 | va_loss 0.3414 | va_dice(2D) 0.8343 | lr 0.000058
+Ep 044 | tr_loss 0.1995 | va_loss 0.3408 | va_dice(2D) 0.8373 | lr 0.000043
+Ep 045 | tr_loss 0.1971 | va_loss 0.3410 | va_dice(2D) 0.8360 | lr 0.000030
+Ep 046 | tr_loss 0.1965 | va_loss 0.3410 | va_dice(2D) 0.8360 | lr 0.000019
+Ep 047 | tr_loss 0.1948 | va_loss 0.3409 | va_dice(2D) 0.8397 | lr 0.000011
+Ep 048 | tr_loss 0.1964 | va_loss 0.3409 | va_dice(2D) 0.8394 | lr 0.000005
+Ep 049 | tr_loss 0.1960 | va_loss 0.3410 | va_dice(2D) 0.8391 | lr 0.000001
+Ep 050 | tr_loss 0.1991 | va_loss 0.3409 | va_dice(2D) 0.8389 | lr 0.000000
+
+>>>> DICE 3D FINALE (miglior checkpoint: ep 40) <<<<
+  Paziente 0006: Dice = 0.8653
+  Paziente 0035: Dice = 0.8179
+  Paziente 0049: Dice = 0.8193
+  Paziente 0055: Dice = 0.8156
+  Paziente 0058: Dice = 0.7879
+  Paziente 0062: Dice = 0.8576
+  Paziente 0064: Dice = 0.8601
+  Paziente 0065: Dice = 0.8521
+  Paziente 0069: Dice = 0.8377
+  Paziente 0076: Dice = 0.7909
+
+==================================================
+  Best epoch    : 40
+  Dice 2D (val) : 0.8404
+  Dice 3D (val) : 0.8304 ± 0.0269
+==================================================

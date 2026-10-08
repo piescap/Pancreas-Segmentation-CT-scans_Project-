@@ -1,0 +1,71 @@
+(base) [3175552@lnode01 SecondCNN_logs]$ cat SecondCNN_Training_467854.out
+Avvio baseline U-Net 2D su cuda
+Train dir: /home/3175552/SecondCNN/dataset_split_1303/train
+Val dir  : /home/3175552/SecondCNN/dataset_split_1303/val
+Indicizzazione di 58 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/train'...
+ > Processati 10/58 pazienti...
+ > Processati 20/58 pazienti...
+ > Processati 30/58 pazienti...
+ > Processati 40/58 pazienti...
+ > Processati 50/58 pazienti...
+ Totale slice: 13623 | Slice positive: 4879
+Indicizzazione di 10 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/val'...
+ > Processati 10/10 pazienti...
+ Totale slice: 2141 | Slice positive: 867
+
+>>>> INIZIO TRAINING BASELINE <<<<
+Ep 001 | tr_loss 0.3912 | va_loss 0.3709 | va_dice 0.7714
+Ep 002 | tr_loss 0.2274 | va_loss 0.3834 | va_dice 0.7745
+Ep 003 | tr_loss 0.2166 | va_loss 0.3547 | va_dice 0.7272
+Ep 004 | tr_loss 0.2069 | va_loss 0.3523 | va_dice 0.7828
+Ep 005 | tr_loss 0.2054 | va_loss 0.3505 | va_dice 0.7851
+Ep 006 | tr_loss 0.1986 | va_loss 0.3505 | va_dice 0.8408
+Ep 007 | tr_loss 0.1966 | va_loss 0.3525 | va_dice 0.8524
+Ep 008 | tr_loss 0.1950 | va_loss 0.3495 | va_dice 0.8167
+Ep 009 | tr_loss 0.1942 | va_loss 0.3537 | va_dice 0.7949
+Ep 010 | tr_loss 0.1906 | va_loss 0.3515 | va_dice 0.8209
+Ep 011 | tr_loss 0.1899 | va_loss 0.3696 | va_dice 0.7953
+Ep 012 | tr_loss 0.1892 | va_loss 0.3546 | va_dice 0.8311
+Ep 013 | tr_loss 0.1874 | va_loss 0.3526 | va_dice 0.8314
+Ep 014 | tr_loss 0.1882 | va_loss 0.3592 | va_dice 0.8397
+Ep 015 | tr_loss 0.1851 | va_loss 0.3569 | va_dice 0.7999
+Ep 016 | tr_loss 0.1842 | va_loss 0.3594 | va_dice 0.8239
+Ep 017 | tr_loss 0.1820 | va_loss 0.3561 | va_dice 0.8287
+Ep 018 | tr_loss 0.1828 | va_loss 0.3583 | va_dice 0.8270
+Ep 019 | tr_loss 0.1938 | va_loss 0.3704 | va_dice 0.6528
+Ep 020 | tr_loss 0.1926 | va_loss 0.3588 | va_dice 0.8168
+Ep 021 | tr_loss 0.1879 | va_loss 0.3608 | va_dice 0.8182
+Ep 022 | tr_loss 0.1830 | va_loss 0.3627 | va_dice 0.8147
+Ep 023 | tr_loss 0.1789 | va_loss 0.3644 | va_dice 0.8211
+Ep 024 | tr_loss 0.1804 | va_loss 0.3585 | va_dice 0.8218
+Ep 025 | tr_loss 0.1754 | va_loss 0.3630 | va_dice 0.8140
+Ep 026 | tr_loss 0.1800 | va_loss 0.3627 | va_dice 0.8284
+Ep 027 | tr_loss 0.1762 | va_loss 0.3622 | va_dice 0.8291
+Ep 028 | tr_loss 0.1767 | va_loss 0.3581 | va_dice 0.8252
+Ep 029 | tr_loss 0.1916 | va_loss 0.3559 | va_dice 0.8046
+Ep 030 | tr_loss 0.1827 | va_loss 0.3596 | va_dice 0.8317
+Ep 031 | tr_loss 0.1736 | va_loss 0.3531 | va_dice 0.8371
+Ep 032 | tr_loss 0.1645 | va_loss 0.3507 | va_dice 0.8349
+Ep 033 | tr_loss 0.2131 | va_loss 0.1532 | va_dice 0.7544
+Ep 034 | tr_loss 0.2066 | va_loss 0.1779 | va_dice 0.7050
+Ep 035 | tr_loss 0.1838 | va_loss 0.2174 | va_dice 0.6333
+Ep 036 | tr_loss 0.1564 | va_loss 0.1748 | va_dice 0.7293
+Ep 037 | tr_loss 0.1329 | va_loss 0.1058 | va_dice 0.8289
+Ep 038 | tr_loss 0.1029 | va_loss 0.1433 | va_dice 0.7984
+Ep 039 | tr_loss 0.0921 | va_loss 0.0980 | va_dice 0.8395
+Ep 040 | tr_loss 0.0934 | va_loss 0.1153 | va_dice 0.8121
+Ep 041 | tr_loss 0.0961 | va_loss 0.0996 | va_dice 0.8333
+Ep 042 | tr_loss 0.0859 | va_loss 0.0838 | va_dice 0.8656
+Ep 043 | tr_loss 0.0936 | va_loss 0.0799 | va_dice 0.8628
+Ep 044 | tr_loss 0.0960 | va_loss 0.0986 | va_dice 0.8356
+Ep 045 | tr_loss 0.0934 | va_loss 0.0909 | va_dice 0.8418
+Ep 046 | tr_loss 0.0749 | va_loss 0.0811 | va_dice 0.8640
+Ep 047 | tr_loss 0.0848 | va_loss 0.1005 | va_dice 0.8318
+Ep 048 | tr_loss 0.0722 | va_loss 0.0897 | va_dice 0.8407
+Ep 049 | tr_loss 0.0729 | va_loss 0.0849 | va_dice 0.8643
+Ep 050 | tr_loss 0.0705 | va_loss 0.0881 | va_dice 0.8559
+
+>>>> TRAINING COMPLETATO <<<<
+Miglior epoca : 42
+Miglior Dice  : 0.8656
+Checkpoint salvato in: best_unet2d_baseline.pt

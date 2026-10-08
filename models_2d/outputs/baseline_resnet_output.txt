@@ -1,0 +1,98 @@
+(base) [3175552@lnode01 BaselineRESNET]$ cat cv_job_471417.out
+Avvio Training BASELINE (ResNet34 + decoder progressivo) su cuda
+Modello      : ResNet34 encoder + decoder progressivo 
+Loss         : 0.5 * BCE  +  0.5 * Dice
+LR           : 0.001 (fisso)
+
+>>>> PREPARAZIONE DATASET <<<<
+Indicizzazione di 58 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/train'...
+  > Processati 10/58 pazienti...
+  > Processati 20/58 pazienti...
+  > Processati 30/58 pazienti...
+  > Processati 40/58 pazienti...
+  > Processati 50/58 pazienti...
+  Totale slice: 13623 | Slice positive: 4879
+Indicizzazione di 10 pazienti da '/home/3175552/SecondCNN/dataset_split_1303/val'...
+  > Processati 10/10 pazienti...
+  Totale slice: 2141 | Slice positive: 867
+
+Parametri trainabili: 23,643,668
+
+>>>> INIZIO TRAINING <<<<
+Ep 001 | tr_loss 0.6244 | va_loss 0.5298 | va_dice(2D) 0.6970 | lr 0.001000
+Ep 002 | tr_loss 0.3933 | va_loss 0.4338 | va_dice(2D) 0.7151 | lr 0.001000
+Ep 003 | tr_loss 0.2652 | va_loss 0.4174 | va_dice(2D) 0.7881 | lr 0.001000
+Ep 004 | tr_loss 0.2328 | va_loss 0.3959 | va_dice(2D) 0.6706 | lr 0.001000
+Ep 005 | tr_loss 0.2232 | va_loss 0.3876 | va_dice(2D) 0.7510 | lr 0.001000
+Ep 006 | tr_loss 0.2146 | va_loss 0.3986 | va_dice(2D) 0.7797 | lr 0.001000
+Ep 007 | tr_loss 0.2090 | va_loss 0.3922 | va_dice(2D) 0.8018 | lr 0.001000
+Ep 008 | tr_loss 0.2068 | va_loss 0.4005 | va_dice(2D) 0.7912 | lr 0.001000
+Ep 009 | tr_loss 0.2061 | va_loss 0.3962 | va_dice(2D) 0.7942 | lr 0.001000
+Ep 010 | tr_loss 0.2014 | va_loss 0.3949 | va_dice(2D) 0.7990 | lr 0.001000
+Ep 011 | tr_loss 0.2016 | va_loss 0.4008 | va_dice(2D) 0.7895 | lr 0.001000
+Ep 012 | tr_loss 0.1960 | va_loss 0.3958 | va_dice(2D) 0.7919 | lr 0.001000
+Ep 013 | tr_loss 0.1997 | va_loss 0.3994 | va_dice(2D) 0.7777 | lr 0.001000
+Ep 014 | tr_loss 0.2003 | va_loss 0.3895 | va_dice(2D) 0.7424 | lr 0.001000
+Ep 015 | tr_loss 0.1991 | va_loss 0.3942 | va_dice(2D) 0.7901 | lr 0.001000
+Ep 016 | tr_loss 0.1992 | va_loss 0.3956 | va_dice(2D) 0.7876 | lr 0.001000
+Ep 017 | tr_loss 0.1939 | va_loss 0.3950 | va_dice(2D) 0.7985 | lr 0.001000
+Ep 018 | tr_loss 0.1962 | va_loss 0.3985 | va_dice(2D) 0.7955 | lr 0.001000
+Ep 019 | tr_loss 0.1946 | va_loss 0.4077 | va_dice(2D) 0.7813 | lr 0.001000
+Ep 020 | tr_loss 0.1956 | va_loss 0.4060 | va_dice(2D) 0.7941 | lr 0.001000
+Ep 021 | tr_loss 0.1945 | va_loss 0.4029 | va_dice(2D) 0.7971 | lr 0.001000
+Ep 022 | tr_loss 0.1944 | va_loss 0.4057 | va_dice(2D) 0.7882 | lr 0.001000
+Ep 023 | tr_loss 0.1952 | va_loss 0.4056 | va_dice(2D) 0.7904 | lr 0.001000
+Ep 024 | tr_loss 0.1946 | va_loss 0.4129 | va_dice(2D) 0.7860 | lr 0.001000
+Ep 025 | tr_loss 0.1919 | va_loss 0.4087 | va_dice(2D) 0.7838 | lr 0.001000
+Ep 026 | tr_loss 0.1938 | va_loss 0.4068 | va_dice(2D) 0.7893 | lr 0.001000
+Ep 027 | tr_loss 0.1916 | va_loss 0.4105 | va_dice(2D) 0.7854 | lr 0.001000
+Ep 028 | tr_loss 0.1891 | va_loss 0.4129 | va_dice(2D) 0.7832 | lr 0.001000
+Ep 029 | tr_loss 0.1896 | va_loss 0.4041 | va_dice(2D) 0.7856 | lr 0.001000
+Ep 030 | tr_loss 0.1907 | va_loss 0.4040 | va_dice(2D) 0.7880 | lr 0.001000
+Ep 031 | tr_loss 0.1899 | va_loss 0.4140 | va_dice(2D) 0.7799 | lr 0.001000
+Ep 032 | tr_loss 0.1888 | va_loss 0.4076 | va_dice(2D) 0.7810 | lr 0.001000
+Ep 033 | tr_loss 0.1873 | va_loss 0.4149 | va_dice(2D) 0.7852 | lr 0.001000
+Ep 034 | tr_loss 0.1889 | va_loss 0.4043 | va_dice(2D) 0.7974 | lr 0.001000
+Ep 035 | tr_loss 0.1895 | va_loss 0.4092 | va_dice(2D) 0.7743 | lr 0.001000
+Ep 036 | tr_loss 0.1867 | va_loss 0.4070 | va_dice(2D) 0.7957 | lr 0.001000
+Ep 037 | tr_loss 0.1878 | va_loss 0.4109 | va_dice(2D) 0.7796 | lr 0.001000
+Ep 038 | tr_loss 0.1867 | va_loss 0.4064 | va_dice(2D) 0.7862 | lr 0.001000
+Ep 039 | tr_loss 0.1866 | va_loss 0.4221 | va_dice(2D) 0.7682 | lr 0.001000
+Ep 040 | tr_loss 0.1854 | va_loss 0.4174 | va_dice(2D) 0.7677 | lr 0.001000
+Ep 041 | tr_loss 0.1897 | va_loss 0.4148 | va_dice(2D) 0.7774 | lr 0.001000
+Ep 042 | tr_loss 0.1855 | va_loss 0.4184 | va_dice(2D) 0.7748 | lr 0.001000
+Ep 043 | tr_loss 0.1869 | va_loss 0.4188 | va_dice(2D) 0.7753 | lr 0.001000
+Ep 044 | tr_loss 0.1853 | va_loss 0.4196 | va_dice(2D) 0.7632 | lr 0.001000
+Ep 045 | tr_loss 0.1897 | va_loss 0.4118 | va_dice(2D) 0.7775 | lr 0.001000
+Ep 046 | tr_loss 0.1832 | va_loss 0.4191 | va_dice(2D) 0.7714 | lr 0.001000
+Ep 047 | tr_loss 0.1841 | va_loss 0.4279 | va_dice(2D) 0.7595 | lr 0.001000
+Ep 048 | tr_loss 0.1818 | va_loss 0.4162 | va_dice(2D) 0.7720 | lr 0.001000
+Ep 049 | tr_loss 0.1849 | va_loss 0.4256 | va_dice(2D) 0.7599 | lr 0.001000
+Ep 050 | tr_loss 0.1840 | va_loss 0.4214 | va_dice(2D) 0.7723 | lr 0.001000
+
+>>>> DICE 3D FINALE (miglior checkpoint: ep 7) <<<<
+  Paziente 0006: Dice = 0.7549
+  Paziente 0035: Dice = 0.6505
+  Paziente 0049: Dice = 0.6647
+  Paziente 0055: Dice = 0.5630
+  Paziente 0058: Dice = 0.5982
+  Paziente 0062: Dice = 0.4961
+  Paziente 0064: Dice = 0.7082
+  Paziente 0065: Dice = 0.7202
+  Paziente 0069: Dice = 0.6275
+  Paziente 0076: Dice = 0.6483
+
+==================================================
+  Modello       : ResNet34 + decoder progressivo (no skip connections)
+  Augmentation  : Disabilitata
+  LR            : 0.001 (fisso)
+  Best epoch    : 7
+  Dice 2D (val) : 0.8018
+  Dice 3D (val) : 0.6432 ± 0.0731
+==================================================
+
+  Confronto atteso:
+  ResNet34 decoder minimale    →  Dice 3D ~0.50–0.60
+  ResNet34 decoder progressivo →  Dice 3D ~0.60–0.68
+  UNet ResNet34 (skip conn.)   →  Dice 3D ~0.74
+==================================================
